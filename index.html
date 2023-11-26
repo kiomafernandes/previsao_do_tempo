@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Previsão do tempo</title>
+</head>
+<body>
+
+    <div class="container">
+        <input class="input-cidade" type="text" placeholder="Digite o nome da cidade">
+        <button class="botao-buscar" onclick="buttonClick()">
+            <img class="img-buscar" src="https:www.svgrepo.com/show/488200/find.svg" alt="Buscar">
+        </button>
+
+        <div class="container-info">
+
+            <h2 class="cidade">Tempo em ...</h2>
+
+            <p class="temperatura"> Temperatura: 00°C</p>
+            <p class="maxima">Max: 00°C</p>
+            <P class="minima">Min: 00°C</P>
+
+
+            <div class="caixa">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">
+                <p class="texto-previsao">(...)</p>
+            </div>
+
+            <p class="umidade">Umidade: 00%</p>
+        </div>
+        <div class="footer">
+            <P>&copy Kioma Fernandes<P>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
